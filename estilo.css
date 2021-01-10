@@ -1,0 +1,89 @@
+
+
+	body {
+		font-family: arial;
+		color: white;
+	}
+	
+	.servicos {
+	height: 200px;
+	border: 1px solid black;
+	margin: 20px;;
+	padding: 20px;
+	display: inline-block;
+	vertical-align: auto;
+	float: inherit;
+	position:relative;
+	border-radius: 20px;
+	box-shadow: 5px 0px 5px gray;
+
+}
+.servicos a {
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+	background-color: #a8518a;
+	border-bottom-right-radius: inherit; 
+	margin-left: -20px;
+	border-bottom-left-radius: inherit;
+	text-align: center;
+	color: white;
+}
+.servicos a:hover {
+	color:#3d3636;
+}
+	.lavatorio {
+		background-image: url(lavatorio.jpg);
+		background-size: cover;
+		background-position: center;
+		width: 200px;
+	}
+	.babyliss {
+		background-image: url(babyliss.jpg);
+		background-size: cover;
+		background-position:center;
+		width: 200px
+		
+	}
+	.cadeira {
+		background-image: url(cadeira.jpg);
+		background-size: cover;
+		background-position: center;
+		width: 200px
+		
+	}
+	.escova {
+		background-image: url(escova.jpg);
+		background-size: cover;
+		width: 200px
+		
+		
+	}
+	.luvas {
+		background-image: url(luvas.jpg);
+		background-size: cover;
+		background-position: center;
+		width: 200px
+		
+	}
+	a {
+		color: black;
+		text-decoration: none;
+		position: relative;
+	}
+	
+	#carrossel-principal {
+		background-image: url(carrossel-principal.jpg);
+		width: 100%;
+	height: 50%;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: relative;
+
+	}
+	@media (max-width: 700px) {
+	nav#menu-principal {
+		display: none;}
+
+	

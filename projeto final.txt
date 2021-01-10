@@ -1,0 +1,4 @@
+RGB LOGO: 168, 81, 138. #a8518a
+RGB FUNDO: 61, 54, 54. #3d3636
+
+fazer página do cliente comentando sobre o site e a compra e fazer uma página da empresa do site ou meu

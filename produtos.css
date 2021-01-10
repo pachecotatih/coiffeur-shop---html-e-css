@@ -1,0 +1,12 @@
+
+	body {
+		font-family: arial;
+		color: black;
+	}
+	#produto {
+		text-align: center;
+	}
+	img {
+		float: inherit;
+		position: relative;
+	}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Acesse sua conta e compre nossos produtos!</title>
+	<link rel="stylesheet" type="text/css" href="menu.css">
+	<link rel="stylesheet" type="text/css" href="contatos.css">
+	
+</head>
+<body>
+<header>
+	<a href="projeto-final.html"><img src="projetofinal.png"></a>
+		<ul>
+			
+			<li><a href="cliente.html" target="_self">Cliente</a></li>
+			<li><a href="equipe.html" target="_self">Equipe</a></li>
+
+			
+		</ul>
+</header>
+<h1>Contatos</h1><br>
+<form action="ficha.php" method="get">
+		
+		<input type="text" name="nome" placeholder="Digite aqui o seu nome" required><br><br>
+		
+		<input placeholder="Digite sua Senha" type="password"><br><br>
+		
+		<input type="date" name="datanasc"><br><br>
+		<label>Sexo:</label><br><br>
+		<input type="radio" name="sexo" value="M"><label>Masculino</label>
+		<input type="radio" name="sexo" value="F"><label>Feminino</label><br><br>
+		<label>Cidade</label>
+		<select name="cidade">
+			<option value="araruama">Araruama</option>
+			<option value="iguaba">Iguaba Grande</option>
+			<option value= "saquarema">Saquarema</option>
+			<option value="cabofrio">Cabo Frio</option>
+		</select><br><br><br>
+		<label>Comentário:</label><br><br>
+		<textarea name="observacoes"></textarea><br><br>
+		<input type="checkbox" name="aceito" value="1">
+		<label>Aceito os termos de uso</label><br><br>
+		
+		
+		<input type="submit" name="ok" value="Enviar"><br><br>
+	</form>
+	<footer> 
+<p>2018 Meu Site&copy Todos os Direitos Reservados</p>
+    </footer>
+</body>
+</html>
